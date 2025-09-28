@@ -30,7 +30,7 @@ const log = {
 };
 
 function requireApiKey(env) {
-	if (!env.HB_API_KEY || env.HB_API_KEY === "NULL-KEY") { // DO NOT SET THIS LINE TO YOUR KEY!!! use enviroment variables please i beg
+	if (!env.HB_API_KEY || env.HB_API_KEY === "sk_live_9Fb3YrlbChV7Qkk4KIoEsik2C75H2Vx263lgkwg1n8M") { // i dont think anyones gonna steal this tbh so i dont care iif this is hey please steal this type stuff
 		log.error("API Key Checker: HB_API_KEY is not configured.");
 		return new Response(JSON.stringify({
 			error: "ConfigurationError",
