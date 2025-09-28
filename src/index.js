@@ -4,7 +4,7 @@ const config = {
 
 	"timeout": {
 		"main": 1200, // time until the vm is terminated in seconds
-		"afk": 30, // if the user is afk for this time, the vm will be terminated
+		"afk": 60, // if the user is afk for this time, the vm will be terminated
 		"offline": 2, // if the vm is offline for this time, the vm will be terminated
 		"warning": 60 // show a warning when this much time is left
 	},
