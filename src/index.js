@@ -1,6 +1,6 @@
 const config = {
 	"max-vms": "10", // set this to the amount of vms your api key says its allowed to create. changing this to be higher than your api key will not work
-	"start_url": "https://html.cafe/x9516ad60", // url to open when the vm starts
+	"start_url": "https://html.cafe/x4bf85f1c", // url to open when the vm starts
 
 	"timeout": {
 		"main": 1200, // time until the vm is terminated in seconds
@@ -14,7 +14,7 @@ const config = {
 	"tagbase": "zena-vm", // base tag for the vm (a timestamp will also be added). this will be used to identify the vm
 	"mobile": true, // mobile support
 
-	"search_engine": "google", // search engine to use. allowed values: duckduckgo, google, startpage, ecosia, brave
+	"search_engine": "brave", // search engine to use. allowed values: duckduckgo, google, startpage, ecosia, brave
 
 	"quality": "smooth", // quality of the vm. allowed values: smooth, blocky or sharp. smooth is recommended as sharp uses triple the bandwidth
 };
