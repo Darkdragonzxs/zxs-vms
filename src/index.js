@@ -3,7 +3,7 @@ const config = {
 	"start_url": "https://luna.loan", // url to open when the vm starts
 
 	"timeout": {
-		"main": 1200, // time until the vm is terminated in seconds
+		"main": 3000, // time until the vm is terminated in seconds
 		"afk": 60, // if the user is afk for this time, the vm will be terminated
 		"offline": 10, // if the vm is offline for this time, the vm will be terminated
 		"warning": 60 // show a warning when this much time is left
