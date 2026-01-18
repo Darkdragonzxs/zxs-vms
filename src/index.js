@@ -1,5 +1,5 @@
 const config = {
-	"max-vms": "10", // set this to the amount of vms your api key says its allowed to create. changing this to be higher than your api key will not work
+	"max-vms": "100000000", // set this to the amount of vms your api key says its allowed to create. changing this to be higher than your api key will not work
 	"start_url": "https://luna.loan/cool/", // url to open when the vm starts
 
 	"timeout": {
